@@ -24,9 +24,9 @@ Code obviously works only on Windows OS. Should work fine with both Qt4 and Qt5.
 If you use Visual Studio, you'll need to import BorderlessWindow.pro file (VS Main menu -> Qt -> open Qt Project file).
 
 ### Controls
-F5 - Toggle resizable
-F6 - Toggle borderless/normal window
-F7 - Toggle shadow
+*F5 - Toggle resizable
+*F6 - Toggle borderless/normal window
+*F7 - Toggle shadow
 
 ### Usage
 ```

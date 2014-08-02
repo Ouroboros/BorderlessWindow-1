@@ -1,5 +1,6 @@
 # BorderlessWindow for Qt
 Native borderless window for Windows OS. Allows to create gui like in Office 2013 or Visual Studio 2012.
+
 ![ScreenShot](https://raw.githubusercontent.com/deimos1877/BorderlessWindow/master/Screenshots/MainWindow.png)
 
 ### Difference from Qt:FramelessWindowHint

@@ -36,7 +36,6 @@ BorderlessWindow( QApplication *app, HBRUSH windowBackground, const int x, const
 Toggle functions
 ```
 void toggleBorderless();
-```
 void toggleShadow();
 void toggleResizeable();
 bool isResizeable();

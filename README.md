@@ -1,13 +1,11 @@
 # BorderlessWindow for Qt
-Native borderless window for Windows OS. Allows to create gui like in Office 2013 or Visual Studio 2012.<br /><br />
+Native borderless window for Windows OS. Allows to create gui like in Office 2013 or Visual Studio 2012.
+<br />
+<br />
+![ScreenShot](https://raw.githubusercontent.com/deimos1877/BorderlessWindow/master/Screenshots/MainWindow.png)
 <br />
 <br />
 <br />
-<br />
-![ScreenShot](https://raw.githubusercontent.com/deimos1877/BorderlessWindow/master/Screenshots/MainWindow.png)<br /><br />
-  
-  
-  
 ### Difference from Qt:FramelessWindowHint
 * Resizable
 * Draggable
@@ -16,10 +14,9 @@ Native borderless window for Windows OS. Allows to create gui like in Office 201
 * Aero shake support
 * ALT+Space system menu works
 * System shadow support
-
-
-
-
+<br />
+<br />
+<br />
 ### General Info
 Creates a simple borderless WinAPI window, like [this one](http://stackoverflow.com/questions/16765561/borderless-window-using-areo-snap-shadow-minimize-animation-and-shake). Then adds QWinWidget from QtWinMigrate and fills window with it.
 

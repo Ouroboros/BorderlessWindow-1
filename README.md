@@ -11,14 +11,16 @@ Native borderless window for Windows OS. Allows to create gui like in Office 201
 * System shadow support
 
 
-### How does it work?
+### 
 Creates a simple borderless WinAPI window, like [this one](http://stackoverflow.com/questions/16765561/borderless-window-using-areo-snap-shadow-minimize-animation-and-shake). Then adds QWinWidget from QtWinMigrate and fills window with it.
 
-And then you can use that QWinWidget to create your Qt gui.
+Then you can use that QWinWidget to create your Qt gui.
 
 Resizable edges of the window is drawn by WinAPI, everything else is handled by QWinWidget.
 
 Application has two event loops: one from WinApi, one from QApplication. You should use appropriate event loop, depending on what event you trying to catch.
+
+Note that you can add several QWinWidgets to your window
 
 Code obviously works only on Windows OS. Should work fine with both Qt4 and Qt5. Tested with Visual Studio 2012 Compiler, Qt 4.8.5 and Qt 5.3.
 
@@ -30,6 +32,10 @@ If you use Visual Studio, you'll need to import BorderlessWindow.pro file (VS Ma
 * F7 - Toggle shadow
 
 ### Usage
+main.cpp -> example
+MainWindow.cpp -> WinAPI Window
+QMainPanel.cpp -> QWinWidget, add your widgets here
+
 ```
 BorderlessWindow( QApplication *app, HBRUSH windowBackground, const int x, const int y, const int width, const int height );
 ```

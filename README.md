@@ -31,6 +31,8 @@ For simplicity, my example uses only one QWinWidget. Keep in mind, that you can 
 Code obviously works only on Windows OS. Should work fine with both Qt4 and Qt5. Tested with Visual Studio 2012 Compiler, Qt 4.8.5 and Qt 5.3.
 
 If you use Visual Studio, you'll need to import BorderlessWindow.pro file (VS Main menu -> Qt -> open Qt Project file).
+<br />
+<br />
 
 ### Usage
 * main.cpp -> Example

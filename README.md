@@ -6,6 +6,7 @@ Native borderless window for Windows OS. Allows to create gui like in Office 201
 
 
 
+
 ### Difference from Qt:FramelessWindowHint
 * Resizable
 * Draggable
@@ -14,6 +15,8 @@ Native borderless window for Windows OS. Allows to create gui like in Office 201
 * Aero shake support
 * ALT+Space system menu works
 * System shadow support
+
+
 
 
 ### General Info
